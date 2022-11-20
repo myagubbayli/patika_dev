@@ -1,0 +1,1 @@
+# java_temelKavram_degiskenler_www.patika.dev
