@@ -1,0 +1,15 @@
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\bin\Debug\net7.0\type_conversions.exe
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\bin\Debug\net7.0\type_conversions.deps.json
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\bin\Debug\net7.0\type_conversions.runtimeconfig.json
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\bin\Debug\net7.0\type_conversions.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\bin\Debug\net7.0\type_conversions.pdb
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\obj\Debug\net7.0\type_conversions.csproj.AssemblyReference.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\obj\Debug\net7.0\type_conversions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\obj\Debug\net7.0\type_conversions.AssemblyInfoInputs.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\obj\Debug\net7.0\type_conversions.AssemblyInfo.cs
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\obj\Debug\net7.0\type_conversions.csproj.CoreCompileInputs.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\obj\Debug\net7.0\type_conversions.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\obj\Debug\net7.0\refint\type_conversions.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\obj\Debug\net7.0\type_conversions.pdb
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\obj\Debug\net7.0\type_conversions.genruntimeconfig.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\type_conversions\obj\Debug\net7.0\ref\type_conversions.dll
