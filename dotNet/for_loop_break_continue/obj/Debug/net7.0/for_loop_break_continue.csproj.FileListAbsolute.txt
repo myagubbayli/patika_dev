@@ -1,0 +1,15 @@
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\bin\Debug\net7.0\for_loop_break_continue.exe
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\bin\Debug\net7.0\for_loop_break_continue.deps.json
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\bin\Debug\net7.0\for_loop_break_continue.runtimeconfig.json
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\bin\Debug\net7.0\for_loop_break_continue.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\bin\Debug\net7.0\for_loop_break_continue.pdb
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\obj\Debug\net7.0\for_loop_break_continue.csproj.AssemblyReference.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\obj\Debug\net7.0\for_loop_break_continue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\obj\Debug\net7.0\for_loop_break_continue.AssemblyInfoInputs.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\obj\Debug\net7.0\for_loop_break_continue.AssemblyInfo.cs
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\obj\Debug\net7.0\for_loop_break_continue.csproj.CoreCompileInputs.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\obj\Debug\net7.0\for_loop_break_continue.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\obj\Debug\net7.0\refint\for_loop_break_continue.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\obj\Debug\net7.0\for_loop_break_continue.pdb
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\obj\Debug\net7.0\for_loop_break_continue.genruntimeconfig.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\for_loop_break_continue\obj\Debug\net7.0\ref\for_loop_break_continue.dll
