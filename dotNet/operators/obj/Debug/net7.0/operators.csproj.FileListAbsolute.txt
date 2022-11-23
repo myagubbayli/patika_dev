@@ -1,0 +1,15 @@
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\bin\Debug\net7.0\operators.exe
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\bin\Debug\net7.0\operators.deps.json
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\bin\Debug\net7.0\operators.runtimeconfig.json
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\bin\Debug\net7.0\operators.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\bin\Debug\net7.0\operators.pdb
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\obj\Debug\net7.0\operators.csproj.AssemblyReference.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\obj\Debug\net7.0\operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\obj\Debug\net7.0\operators.AssemblyInfoInputs.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\obj\Debug\net7.0\operators.AssemblyInfo.cs
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\obj\Debug\net7.0\operators.csproj.CoreCompileInputs.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\obj\Debug\net7.0\operators.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\obj\Debug\net7.0\refint\operators.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\obj\Debug\net7.0\operators.pdb
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\obj\Debug\net7.0\operators.genruntimeconfig.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\operators\obj\Debug\net7.0\ref\operators.dll
