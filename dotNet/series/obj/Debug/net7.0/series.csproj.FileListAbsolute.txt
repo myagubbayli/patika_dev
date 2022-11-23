@@ -1,0 +1,15 @@
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\bin\Debug\net7.0\series.exe
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\bin\Debug\net7.0\series.deps.json
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\bin\Debug\net7.0\series.runtimeconfig.json
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\bin\Debug\net7.0\series.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\bin\Debug\net7.0\series.pdb
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\obj\Debug\net7.0\series.csproj.AssemblyReference.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\obj\Debug\net7.0\series.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\obj\Debug\net7.0\series.AssemblyInfoInputs.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\obj\Debug\net7.0\series.AssemblyInfo.cs
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\obj\Debug\net7.0\series.csproj.CoreCompileInputs.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\obj\Debug\net7.0\series.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\obj\Debug\net7.0\refint\series.dll
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\obj\Debug\net7.0\series.pdb
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\obj\Debug\net7.0\series.genruntimeconfig.cache
+C:\Users\ymaha\Desktop\patika_dev\dotNet\series\obj\Debug\net7.0\ref\series.dll
