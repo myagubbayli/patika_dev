@@ -34,7 +34,7 @@ public class Ring {
                     if (isWin()) {
                         break;
                     }
-                } 
+                }
                 printScore();
             }
         } else {
