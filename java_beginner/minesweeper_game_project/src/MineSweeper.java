@@ -10,11 +10,14 @@ public class MineSweeper {
     }
     public void Run() {
         int rowGuess = 0, columnGuess = 0;
+        boolean checkTrue = true;
+        int counterForWin = 0;
         String[][] mineArea = RandomMine();
         String[][] woMines = MainMap();
         System.out.println("Welcome to MineSweeper Game!");
 
         do{
+            int counter = 0;
             for(int i = 0; i < this.rowNumber; i++) {
                 for(int j = 0; j < this.columnNumber; j++) {
                     System.out.print(woMines[i][j] + " ");
@@ -30,10 +33,34 @@ public class MineSweeper {
                 System.out.println("Game Over. You Lost!");
                 break;
             }
-            System.out.println("=====================");
-        } while (true);
+            else {
+                for (int rowStart = rowGuess - 1; rowStart <= rowGuess + 1; rowStart++) {
+                    for (int colStart = columnGuess - 1; colStart <= columnGuess + 1; colStart++) {
+                        try {
+                            if (mineArea[rowStart][colStart] == "*") {
+                                counter++;
+                            }
+                        } catch (ArrayIndexOutOfBoundsException exception) {
+                            continue;
+                        }
+                    }
+                }
+                if (counter == 2) {
+                    woMines[rowGuess][columnGuess] = "2";
+                } else if (counter == 1) {
+                    woMines[rowGuess][columnGuess] = "1";
+                } else {
+                    woMines[rowGuess][columnGuess] = "0";
+                }
+                System.out.println("=====================");
+            }
+            counterForWin++;
+            if(counterForWin == ((this.rowNumber * this.columnNumber) - (this.rowNumber * this.columnNumber) / 4)) {
+                System.out.println("You Won the Game!");
+                checkTrue = false;
+            }
 
-
+        } while (checkTrue);
 
     }
 
@@ -57,7 +84,7 @@ public class MineSweeper {
     }
 
     public String[][] MainMap() {
-        String[][] mineSweeper = new String[this.rowNumber][this.columnNumber];
+        String[][] mineSweeper = new String[rowNumber][columnNumber];
         for(int i = 0; i < this.rowNumber; i++) {
             for(int j = 0; j < this.columnNumber; j++) {
                 mineSweeper[i][j] = "-";
@@ -65,6 +92,4 @@ public class MineSweeper {
         }
         return mineSweeper;
     }
-
-
 }
