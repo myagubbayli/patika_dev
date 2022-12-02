@@ -1,6 +1,6 @@
 -- Practice 
 
-/*
+
 1. How many movies have at least 4 e-s or E-s in their titles?
 SELECT COUNT(*) FROM film
 WHERE title ILIKE '%e%e%e%e%';
@@ -25,9 +25,9 @@ SELECT title, length, replacement_cost FROM film
 WHERE title LIKE 'K%'
 ORDER BY length DESC, replacement_cost ASC
 LIMIT 3;
-*/
 
--- What is the name of the customer who makes the most purchases?
+
+5. What is the name of the customer who makes the most purchases?
 SELECT SUM(amount), customer.first_name, customer.last_name FROM payment
 JOIN customer ON customer.customer_id = payment.customer_id
 GROUP BY payment.customer_id, customer.first_name, customer.last_name
