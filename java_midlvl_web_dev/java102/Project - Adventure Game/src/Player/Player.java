@@ -1,12 +1,13 @@
 package Player;
 
-import Location.*;
+import Inventory.Inventory;
 
 import java.util.Scanner;
 
 public class Player {
     private int damage;
     private int health;
+    private int originalHealth;
     private int money;
     private String charName;
     private String name;
@@ -16,6 +17,10 @@ public class Player {
     public Player(String name) {
         this.name = name;
         this.inventory = new Inventory();
+    }
+
+    public Player() {
+        
     }
 
     public void selectChar() {
@@ -51,17 +56,38 @@ public class Player {
     public void initPlayer(GameChar gameChar) {
         this.setDamage(gameChar.getDamage());
         this.setHealth(gameChar.getHealth());
+        this.setOriginalHealth(gameChar.getHealth());
         this.setMoney(gameChar.getMoney());
         this.setName(gameChar.getName());
     }
 
     public void printInfo() {
-        System.out.println("Gun: " + this.getInventory().getWeapon().getName() + ", Damage: " + this.getDamage() +
-                ", Health: " + this.getHealth() + ", Money: " + this.getMoney());
+        System.out.print("Gun: " + this.getInventory().getWeapon().getName() +
+                ", Armor: " + this.getInventory().getArmor().getName() +
+                ", Defence: " + this.getInventory().getArmor().getBlock() +
+                ", Damage: " + this.getTotalDamage() +
+                ", Health: " + this.getHealth() +
+                ", Money: " + this.getMoney());
+        System.out.println();
+        
+        System.out.print("Award: ");
+
+        for(String award : this.getInventory().getReward()) {
+            if (award == null) {
+                continue;
+            } else {
+                System.out.print(award + ", ");
+            }
+            
+        }
+        System.out.println();
     }
 
-    public int getDamage() {
+    public int getTotalDamage() {
         return damage + this.getInventory().getWeapon().getDamage();
+    }
+    public int getDamage() {
+        return damage;
     }
 
     public void setDamage(int damage) {
@@ -96,10 +122,6 @@ public class Player {
         return charName;
     }
 
-    public void setCharName() {
-        this.charName = charName;
-    }
-
     public Inventory getInventory() {
         return inventory;
     }
@@ -107,4 +129,13 @@ public class Player {
     public void setInventory(Inventory inventory) {
         this.inventory = inventory;
     }
+
+    public int getOriginalHealth() {
+        return originalHealth;
+    }
+
+    public void setOriginalHealth(int originalHealth) {
+        this.originalHealth = originalHealth;
+    }
+
 }
