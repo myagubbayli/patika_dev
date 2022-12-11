@@ -2,17 +2,18 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-        TreeSet<Integer> numbers = new TreeSet<>();
+        
+        TreeSet<Student> students = new TreeSet<>(new OrderNameComparator());
 
-        numbers.add(10);
-        numbers.add(1022);
-        numbers.add(1);
-        numbers.add(-10);
-        numbers.add(22);
+        students.add(new Student("Muhammed", 20));
+        students.add(new Student("Ahmet", 100));
+        students.add(new Student("Behlul", 45));
+        students.add(new Student("Damla", 60));
+        students.add(new Student("Damla", 60));
+        students.add(new Student("Cemre", 60));
 
-        for (Integer number : numbers) {
-            System.out.println(number);
+        for (Student stu : students) {
+            System.out.println(stu.getName());
         }
-
     }
 }
