@@ -3,27 +3,30 @@ import java.util.Iterator;
 
 public class Main {
     public static void main(String[] args) {
+        // a => 1723717231
+        // b => 1283812382
+        // f(x) = (x ^ 2) * xmod7 * lnx
+        // f(5) = 12223
+        // f(6) = 2213
+        // h[1723717231] = a , f(a) => 1723717231
+        
+        HashSet<Integer> hSet = new HashSet<>();
+        hSet.add(10);
+        hSet.add(20);
+        hSet.add(30);
+        hSet.add(null);
 
-        // f(x) = x*3 * xmod7 * sqrt(x)
+        hSet.remove(10);
+        // hSet.clear(); 
+        // for (Integer number : hSet) {
+        //     System.out.println(number);
+        // }
 
-        HashSet<String> h = new HashSet<>();
-        h.add("a");
-        h.add("b");
-        h.add("z");
-        h.add(null);
+        Iterator<Integer> itr = hSet.iterator();
 
-        h.remove("b");
-        System.out.println(h.size());
-        System.out.println(h.contains("b"));
-        for (String s : h) {
-            System.out.println(s);
-        }
-
-        // Itertor kullanarak gezinmek
-        Iterator<String> itr = h.iterator();
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
 
     }
-}
+} 
