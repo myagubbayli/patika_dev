@@ -1,21 +1,18 @@
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedHashSet<String> days = new LinkedHashSet<>();
-        days.add("Monday");
-        days.add("Tuesday");
-        days.add("Wednesday");
-        days.add("Thursday");
-        days.add("Friday");
-        days.add("Saturday");
-        days.add("Friday");
+        LinkedHashSet<Integer> lSet = new LinkedHashSet<>();
+        lSet.add(10);
+        lSet.add(10);
+        lSet.add(20);
+        lSet.add(30);
 
-        days.remove("Friday");
+        Iterator<Integer> itr = lSet.iterator();
 
-        for (String day : days) {
-            System.out.println(day);
+        while(itr.hasNext()) {
+            System.out.println(itr.next());
         }
-
     }
 }
