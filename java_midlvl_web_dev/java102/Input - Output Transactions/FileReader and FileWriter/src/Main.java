@@ -18,7 +18,7 @@ public class Main {
         //     readFile.close();
         // } catch (Exception e) {
         //     System.out.println(e.getMessage());
-        // }
+        // } 
 
         String data = "JAVA ÖĞRENİYORUM !";
 
