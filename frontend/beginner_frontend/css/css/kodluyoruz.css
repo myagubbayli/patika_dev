@@ -1,7 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 50px auto 0;
+}
+
+.gradient {
+    background: linear-gradient(135deg, rgba(112, 73, 186, 0.6785938262939453), rgba(233, 80, 149, 0.3910938262939453));
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: -2px -2px 45px 0px rgba(0, 0, 0, 0.4);
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: rgb(155, 145, 145);
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-right: 10px;
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    /* margin-bottom: 10px;  */
+    float: left;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+
 /* class -> .text-red {} */
 /* id -> #id-bilgisi {} */
 
-h1, h2, h3, h4, h5, h6 {
+/* li:first-child {
+    color: green;
+}
+
+li:last-child {
+    color: aqua;
+} */
+
+/* li:nth-child(odd) {
+    color: red;
+}
+
+li:nth-child(even) {
+    color: blue;
+} */
+
+li:nth-child(3n) {
+    color: red;
+}
+
+
+.color-blue .fw-normal {
+    color: blue;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #2c2c2c;
 }
 
